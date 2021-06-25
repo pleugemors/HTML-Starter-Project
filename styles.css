@@ -1,0 +1,19 @@
+body {
+	background-color: darkslategrey;
+}
+
+form {
+	width: 40%;
+	color: white;
+	border: dashed;
+	border-width: 2px;
+	border-color: green;
+	font-size: 20px;
+}
+
+p {
+	color: white;
+	border-bottom: solid;
+	border-color: green;
+	font-size: 30px;
+}

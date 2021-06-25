@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <head>
 	<title> Character Build </title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<form>
+	<p>Welcome to the wonderful world of Fanisia.  It is broken down into different realms and has many different people there.
+	In order to get started please supply a character name and give their traits:
+	</p>
+	<form action="hello.html" method="get">
 		<label> Character Name: <input name="character_name"></label>
+		<br>
 		<label> Race:
 				<select name="Race">
 			 		<option value="human">Human</option>
@@ -16,12 +21,12 @@
 					<option value="android">Android</option>
 				</select>
 		</label>
+		<br>
 		<label> Sex:
-				<input type="radio" id="male" name= "sex">
+				<input type="radio" value="male" name= "sex">
 					<label>Male </label>
-				<input type="radio" id="female" name = "sex">
-					<label>Female </label>
-					
+				<input type="radio" value="female" name = "sex">
+					<label>Female </label>		
 		</label>
 		<br/>
 		<label>Realm :
@@ -37,7 +42,6 @@
 				
 			</select>
 		</label>
-		<br>
 		<button type="submit">Done</button>
 			
 	</form>
